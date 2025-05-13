@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	/* Kaydırma çubuklarını gizle */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#app {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+#video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* Videonun en boy oranını koruyarak kaplamasını sağla */
+	transform: scaleX(-1);
+	/* Kamerayı aynala */
+}
+
+#gameCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#scoreDisplay {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: white;
+	font-size: 24px;
+	font-family: Arial, sans-serif;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px 10px;
+	border-radius: 5px;
+}
