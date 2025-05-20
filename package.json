@@ -13,6 +13,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "@mediapipe/face_mesh": "^0.4.1633559619",
     "@mediapipe/hands": "^0.4.1675469240",
     "@types/three": "^0.176.0",
     "three": "^0.176.0"
